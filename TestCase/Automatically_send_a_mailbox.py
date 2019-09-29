@@ -8,11 +8,11 @@ import smtplib
 from email.header import Header
 
 
-mailto_list=['fan.zhou@keliangtek.com']     #多个用户用,隔开
-# mailto_list='fan.zhou@keliangtek.com'
+mailto_list=['3.zhou@qq.com']     #多个用户用,隔开
+# mailto_list='3.zhou@qq.com'
 mail_host='smtp.exmail.qq.com'             #服务器地址
-mail_user="fan.zhou@keliangtek.com"
-mail_pass="ZHOUFANabc123"          
+mail_user="3.zhou@qq.com"
+mail_pass=""          
 
 def send_mail(receivers,sub,content):
     sender="python_Test"+"<"+mail_user+">"
