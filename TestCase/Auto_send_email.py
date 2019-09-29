@@ -6,11 +6,11 @@ from email.header import Header
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
  
-sender = 'fan.zhou@keliangtek.com'
-receiver = 'fan.zhou@keliangtek.com'
+sender = '3.zhou@qq.com'
+receiver = '3.zhou@qq.com'
 smtpserver = 'smtp.exmail.qq.com'
-username = 'fan.zhou@keliangtek.com'
-password = 'ZHOUFANabc123'
+username = '3.zhou@qq.com'
+password = ''
 mail_title = '主题：这是带附件的邮件'
  
 # 创建一个带附件的实例
