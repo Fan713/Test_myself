@@ -30,8 +30,8 @@ if __name__=='__main__':
     path=r'C:\Users\KLJS151\QuiKLab3\config.xml'
     
     op=xmlReader(path)
-    xpath='item'
-    # print(op.getNodeText(xpath))
+    xpath='./config/useDatabase'
+    print(op.getNodeText(xpath))
     # op.modifyNodeText(xpath,'5')
-    op.modifyAttrValue(xpath, 'name', 'no1',3)
+#     op.modifyAttrValue(xpath, 'name', 'no1',3)
     # tree.write(path,encoding='utf-8')

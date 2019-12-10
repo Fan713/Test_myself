@@ -3,7 +3,6 @@
 
 import xml.dom.minidom as xmldom
 import xml.etree.ElementTree as ET
-from dask.rewrite import END
 class readXml(object):
     def __init__(self,strxml):
         self.xml_file=xmldom.parse(strxml)

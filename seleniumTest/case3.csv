@@ -1,0 +1,5 @@
+步骤,动作,xpath,参数,result
+1,open,,https://baidu.com/,测试通过
+2,input,kw,python,测试通过
+3,click_by_id,su,,测试通过
+4,close,,,测试通过
